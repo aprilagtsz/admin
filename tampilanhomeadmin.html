@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-white min-h-screen">
+    <div class="w-full">
+        
+        <header class="flex justify-between items-center p-4 border-b">
+            <h1 class="text-xl font-bold">BookBase</h1>
+            <div class="flex items-center">
+                <i class="fas fa-user-circle text-xl mr-2"></i>
+                <span>Admin</span>
+            </div>
+        </header>
+        
+        <div class="flex flex-col md:flex-row">
+            <nav class="w-full md:w-20 bg-white border-r flex md:flex-col items-center py-4 space-x-8 md:space-y-8 md:space-x-0">
+                <button><i class="fas fa-home text-xl"></i></button>
+                <button><i class="fas fa-book text-xl"></i></button>
+                <button><i class="fas fa-folder text-xl"></i></button>
+                <div class="hidden md:block w-full border-t mt-8"></div>
+                <button><i class="fas fa-sign-out-alt text-xl mt-8 md:mt-0"></i></button>
+            </nav>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 w-full">
+                <div class="bg-blue-800 text-white p-6 rounded-lg w-full">
+                    <h2 class="text-lg font-semibold">Total Pengguna</h2>
+                    <p class="text-2xl font-bold">40 Orang</p>
+                </div>
+                <div class="bg-blue-800 text-white p-6 rounded-lg w-full">
+                    <h2 class="text-lg font-semibold">Total Mahasiswa</h2>
+                    <p class="text-2xl font-bold">25 Orang</p>
+                </div>
+                <div class="bg-blue-800 text-white p-6 rounded-lg w-full">
+                    <h2 class="text-lg font-semibold">Total Dosen</h2>
+                    <p class="text-2xl font-bold">15 Orang</p>
+                </div>
+                <div class="bg-blue-800 text-white p-6 rounded-lg w-full">
+                    <h2 class="text-lg font-semibold">Total Mata Kuliah</h2>
+                    <p class="text-2xl font-bold">75+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
